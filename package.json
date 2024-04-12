@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "name": "ros",
+  "version": "1.0.0",
+  "description": "for ai fianl",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node"
+  },
+  "author": "",
+  "license": "ISC"
+}
