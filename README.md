@@ -1,5 +1,5 @@
 # Final-AI
-This project is for Introduction to AI course
+This project is contribute for Introduction to AI course
 
 ## Sofware Requirement
 ```
