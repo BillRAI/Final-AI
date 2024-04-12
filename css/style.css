@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.grid-overlay {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.grid-line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Grid line color (semi-transparent black) */
+}
+
+.grid-line.vertical {
+    top: 0;
+}
+
+.grid-line.horizontal {
+    left: 0;
+}
+
+#x, #y {
+    font-weight: bold;
+}
+
+#startButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
